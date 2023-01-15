@@ -1,6 +1,6 @@
 # Flickr Android Client
 
-Features Include:
+App Architecture Includes:
   - MVVM Model
   - Kotlin Coroutines
   - Pagination
