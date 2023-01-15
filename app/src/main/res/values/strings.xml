@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FlickrAndroidClient</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="flickr_search_fragment">Search Photos</string>
+    <string name="photo_detail">Photo Detail</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="searchTitle">Photo Search</string>
+</resources>

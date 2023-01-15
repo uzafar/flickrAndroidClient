@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FlickrSearchFragment">
+
+    <fragment
+        android:id="@+id/FlickrSearchFragment"
+        android:name="com.example.flickrandroidclient.activity.FlickrSearchFragment"
+        android:label="@string/flickr_search_fragment"
+        tools:layout="@layout/flickr_search_fragment">
+
+        <action
+            android:id="@+id/action_FlickrSearchFragment_to_PhotoDetailFragment"
+            app:destination="@id/PhotoDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PhotoDetailFragment"
+        android:name="com.example.flickrandroidclient.activity.PhotoDetailFragment"
+        android:label="@string/photo_detail"
+        tools:layout="@layout/photo_detail_fragment">
+
+        <action
+            android:id="@+id/action_PhotoDetailFragment_to_FlickrSearchFragment"
+            app:destination="@id/FlickrSearchFragment" />
+    </fragment>
+</navigation>
