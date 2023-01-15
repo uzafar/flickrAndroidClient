@@ -1,5 +1,4 @@
-# flickrAndroidClient
-Flickr Android Client
+# Flickr Android Client
 
 Features Include:
   - MVVM Model
